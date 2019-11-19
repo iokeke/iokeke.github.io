@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="themes/default/default.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/light/light.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/dark/dark.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/bar/bar.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="nivo-slider.css" type="text/css" media="screen" />
+    <link href="nivo.css" rel="stylesheet" type="text/css">
+    <style>
+
+
+    </style>
+</head>
+
+<body>
+
+    <h2>Responsive navigation menu</h2>
+    <p>Resize the browser window to see the effect: When the screen is less than 600px, the navigation menu will be displayed vertically instead of horizontally.</p>
+    <nav>
+        <div class="topnav">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Friends</a></li>
+                <li><a href="#">Family</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section>
+        <div id="main">
+            <div class="slider-wrapper theme-default">
+                <div id="slider" class="nivoSlider">
+                    <img src="Nivo-Slider-jQuery-master/lakers3.jpg" data-thumb="Nivo-Slider-jQuery-master/lakers3.jpg" alt="" />
+                    ><img src="Nivo-Slider-jQuery-master/lakers1.jpg" data-thumb="Nivo-Slider-jQuery-master/lakers1.jpg" alt="" title="The Los Angeles Lakers are the best basketball team ever" />
+                    <img src="Nivo-Slider-jQuery-master/lakers2.jpg" data-thumb="Nivo-Slider-jQuery-master/lakers2.jpg" alt="" data-transition="slideInLeft" />
+                    <img src="Nivo-Slider-jQuery-master/lakers4.jpg" data-thumb="Nivo-Slider-jQuery-master/lakers4.jpg" alt="" title="#htmlcaption" />
+                </div>
+                <div id="htmlcaption" class="nivo-html-caption">
+                    
+                </div>
+            </div>
+            <p>This is the main content.</p>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eget lacus magna. In mi velit, cursus vitae ex vehicula, euismod condimentum dui. Nullam pretium sapien quis maximus rutrum. Duis maximus, mauris nec bibendum blandit, augue leo vulputate ex, in dignissim tortor augue sed nunc. Duis consectetur lectus ut fermentum fermentum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aliquam efficitur varius accumsan.</p>
+
+            <p>Suspendisse potenti. Cras dignissim, est quis pretium ullamcorper, dui dui malesuada eros, sit amet semper lorem velit at dolor. Nunc venenatis sem id ipsum viverra, id iaculis enim tincidunt. Sed metus nisl, cursus a nulla id, blandit aliquam justo. Sed metus neque, tincidunt id vulputate vel, ornare et ex. Donec suscipit sagittis ligula, ut vulputate lectus hendrerit sed. In sit amet ullamcorper nisl. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+
+            <p>Praesent non justo eget erat bibendum porta vitae in erat. Phasellus quis lacinia urna. Sed et ligula at dui porta sollicitudin vitae non augue. Aliquam mi ex, laoreet vitae ullamcorper et, tempor a ligula. Suspendisse nec sollicitudin massa. Aliquam sodales justo id interdum cursus. Donec diam nibh, consequat finibus nunc quis, fringilla vehicula eros. Cras gravida accumsan nunc, sed ultricies augue faucibus sit amet. Maecenas gravida pulvinar nisl, sit amet porta dui sollicitudin eget. Aliquam posuere velit a velit fringilla, in ornare magna facilisis. Mauris hendrerit orci vel magna sodales viverra.</p>
+
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/cSCrVixkLzY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+            <div class='embed-container'><iframe src='https://www.youtube.com/embed//rS00xWnqwvI' frameborder='0' allowfullscreen></iframe></div>
+
+
+
+        </div>
+
+
+        <div id="side">
+            <p>This is the side content.</p>
+            <p>This is the side content.</p>
+            <p>This is the side content.</p>
+            <p>This is the side content.</p>
+        </div>
+
+    </section>
+
+    <script type="text/javascript" src="scripts/jquery-1.9.0.min.js"></script>
+    <script type="text/javascript" src="jquery.nivo.slider.js"></script>
+    <script type="text/javascript">
+        $(window).load(function() {
+            $('#slider').nivoSlider();
+        });
+
+    </script>
+</body>
+
+</html>
